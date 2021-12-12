@@ -1,2 +1,3 @@
+![GitHub language count](https://img.shields.io/github/languages/count/LCS87/JavaScriptGwan)
 # JavaScriptGwan
-!https://img.shields.io/github/languages/count/LCS87/JavaScriptGwan
+
