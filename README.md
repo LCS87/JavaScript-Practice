@@ -1,5 +1,4 @@
-![GitHub language count](https://img.shields.io/github/languages/count/LCS87/JavaScriptGwan)
-![GitHub top language](https://img.shields.io/github/languages/top/LCS87/JavaScriptGwan)
+<h2>FILE FOR EXERCISES JAVASCRIPT.</h2>
 
-<h2>Pasta para treino e resolução de exercicios em Javascript.</h2>
-
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" WIDTH="40%" />
+          
