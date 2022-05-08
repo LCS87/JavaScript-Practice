@@ -1,0 +1,11 @@
+#main{
+    max-width: 1080px;
+    margin: 0 auto; /*centraliza o a dive referente ao body*/
+}
+
+img{
+
+    max-width: 100%;
+    
+}
+
