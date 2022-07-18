@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <script src="ex0002.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meus pacientes</h1>
+        </div>
+    </header>
+    <main class="container">
+        <section>
+            <h2>Pacientes</h2>
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Peso(kg)</th>
+                    <th>Altura(m)</th>
+                    <th>IMC</th>
+                </tr>
+                <tr class="paciente">
+                    <td class="info-nome">Luizinho</td>
+                    <td class="info-peso">57</td>
+                    <td class="info-altura">1.67</td>
+                    <td class="info-imc"></td>
+                </tr>
+                <tr class="paciente">
+                    <td class="info-nome">Zezinho</td>
+                    <td class="info-peso">68</td>
+                    <td class="info-altura">1.45</td>
+                    <td class="info-imc"></td>
+                </tr>
+                <tr class="paciente">
+                    <td class="info-nome">Huguinho</td>
+                    <td class="info-peso">45</td>
+                    <td class="info-altura">1.50</td>
+                    <td class="info-imc"></td>
+                </tr>
+                <tr class="paciente">
+                    <td class="info-nome">Donald</td>
+                    <td class="info-peso">65</td>
+                    <td class="info-altura">1.40</td>
+                    <td class="info-imc"></td>
+                </tr>
+            </table>
+            <button id="calcula-imcs" class="botao ">Calcular Imcs</button>
+        </section>
+        <section>
+            <h2>Adicionar novo paciente</h2>    
+            <form>
+                <fieldset>
+                    <label for="nome">Nome:</label>
+                    <input id="campo-nome" type="text" placeholder="digite o nome do seu paciente">
+                </fieldset>
+                <fieldset class="campo-medio">
+                    <label for="peso">Peso:</label>
+                    <input id="campo-peso" type="text" placeholder="digite o peso do seu paciente">
+                </fieldset>
+                <fieldset class="campo-medio">
+                    <label for="altura">Altura:</label>
+                    <input id="campo-altura" type="text" placeholder="digite a altura do seu paciente">
+                </fieldset>
+                <button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+            </form>
+        </section>
+    </main>
+    <script src="precorre.js"></script>
+    <script src="calcula-imc.js"></script>
+    <script src="imprime-nome.js"></script>
+</body>
+</html>
